@@ -1,0 +1,12 @@
+<hibernate-mapping>
+    <class name = "kz.tezdet.lessons.hibernate.models.Employee" table = "EMPLOYEE">
+        <id name = "id" type = "int" column="id">
+            <generator class = "native"/>
+        </id>
+        <property name = "firstName" column = "first_name" type="string"/>
+        <property name="lastName" column="last_name" type="string"/>
+        <property name="salary" column="salary" type="int"/>
+
+    </class>
+
+</hibernate-mapping>
